@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+        <link rel="stylesheet" href="./output.css" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href="https://api.fontshare.com/v2/css?f[]=panchang@1&display=swap" rel="stylesheet" />
+        <link href="https://api.fontshare.com/v2/css?f[]=satoshi@1&display=swap" rel="stylesheet" />
+        <title>Hi! - I'm Keisha Fidelia Willie</title>
+    </head>
+    <body>
+        <main class="relative h-screen w-screen">
+            <nav class="mt-9 absolute top-0 left-0 w-screen z-10">
+                <ul class="navbar grid grid-cols-12 mx-[60px] gap-5 overflow-hidden">
+                    <li class="nav-title col-span-2">Keisha Fidelia</li>
+                    <li
+                        class="relative nav-item nav-works w-fit col-start-11 col-span-1 cursor-pointer overflow-hidden"
+                    >
+                        <span class="absolute -top-[100%] right-0 nav-item-works">Works.</span>
+                        <span class="nav-item-works">Works.</span>
+                        <div class="bottom-line"></div>
+                    </li>
+                    <li
+                        class="relative nav-item nav-about w-fit col-start-12 col-span-1 cursor-pointer overflow-hidden"
+                    >
+                        <span class="absolute -top-[100%] right-0 nav-item-about">About.</span>
+                        <span class="nav-item-about">About.</span>
+                        <div class="bottom-line"></div>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="grid grid-cols-12 mx-[60px] gap-5">
+                <div class="absolute top-[20%] leading-[0.8] col-start-1 col-span-9">
+                    <div class="overflow-hidden"><span class="name text-[200px] font-bold">Keisha</span> <br /></div>
+                    <div class="overflow-hidden block">
+                        <span class="name text-[140px] font-bold">Fidelia.</span>
+                    </div>
+                </div>
+                <img
+                    class="w-[1200px] h-[860px] bg-cover absolute bottom-0 left-0 -z-10 opacity-60"
+                    alt="Keisha"
+                    src="./src/assets/pretty.png"
+                />
+                <div class="absolute top-[55%] left-[35%] col-start-5 col-span-4 w-[360px]">
+                    <span class="role font-light text-5xl">Freelance Designer</span>
+                </div>
+            </div>
+        </main>
+
+        <section class="works"></section>
+
+        <script type="module" src="./src/main.js"></script>
+        <script type="module" src="./src/animations/navbar.js"></script>
+    </body>
+</html>
